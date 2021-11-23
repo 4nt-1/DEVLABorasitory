@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #283618;
+}
+
+header {
+  font-family: rig-solid-bold-reverse, sans-serif;
+  font-size: 50px;
+  color: #FEFAE0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr;
+  margin-bottom: 40px;
+}
+header h1 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+header img {
+  width: 150px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: auto;
+}
+
+.pres {
+  height: 40rem;
+}
+.pres p {
+  color: #FEFAE0;
+}
+
+.banderole {
+  background-color: #FEFAE0;
+  position: relative;
+  height: 100vh;
+}
+.banderole .bande1 {
+  background-image: url(img/bandeverte.png);
+  width: 100%;
+  height: 363.26px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+}
+.banderole .bande1 h1 {
+  color: #FEFAE0;
+  font-family: acier-bat-solid, sans-serif;
+  font-size: 90px;
+  transform: rotate(-5.5deg);
+  position: absolute;
+  top: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+.banderole .bande2 {
+  background-image: url(img/bandeblanche.png);
+  width: 100%;
+  height: 195.68px;
+  position: absolute;
+  top: -80px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.banderole .bande2 h1 {
+  color: #283618;
+  font-family: acier-bat-solid, sans-serif;
+  font-size: 90px;
+  transform: rotate(4.7deg);
+  position: absolute;
+  top: 130px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
