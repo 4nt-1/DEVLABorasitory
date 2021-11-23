@@ -7,12 +7,12 @@ body{
 }
 header{
     font-family: rig-solid-bold-reverse, sans-serif;
-    font-size: 50px;
+    font-size: 55px;
     color: #FEFAE0;
-    padding-top: 60px;
+    padding-top: 20px;
     h1{
         text-align: center;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
 }
 .pres{
@@ -21,19 +21,57 @@ header{
         color:#FEFAE0;
     }
     img{
-        height: 650px;
+        height: 550px;
         padding: 5%;
         padding-top: 0;
-        padding-bottom: 100px;
     }
+    .span_container{
+        height: 80vh;
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    } 
+    .span{
+        background-color: #FEFAE0;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        h1{
+            font-family: acier-bat-solid, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color:#283618;
+            font-size: 50px;
+        } 
+    }
+    .span_1{
+        width: 400px;
+        transform: rotate(-5deg);
+    }
+    .span_2{
+        width: 500px;
+        transform: rotate( 4deg);
+    }  
+    .span_3{
+        width: 600px;
+        transform: rotate(-5deg);
+    } 
 }
+
+
 .banderole{
     background-color: #FEFAE0;
-
     .bande1{
         background-color:#283618 ;
         width: 100%;
-        height: 150px;
+        height: 180px;
         white-space: nowrap;
         top: 100px;
         display: flex;
@@ -42,7 +80,6 @@ header{
             color:#FEFAE0;
             font-family: acier-bat-solid, sans-serif;
             font-size: 90px;
-            
             top:100px;
             overflow: hidden;
             white-space: nowrap;
@@ -65,23 +102,7 @@ header{
             text-align: center;
         }
     }
-   
-}
-.description{
-    font-size:44px;
-    line-height:50px;
-    color: #283618;
-
-}
-.discov {
-background-color: #283618;
-border: none;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
+    p{
+        color: #283618;
+    }
 }
